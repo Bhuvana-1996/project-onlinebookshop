@@ -6,42 +6,62 @@
 
 <style>
 body{
-font-family:Arial;
-background:#f4f4f4;
+font-family: Arial, sans-serif;
+background:#f5f5f5;
+margin:0;
+text-align:center;
 }
 
-.header{
-background:#333;
+h1{
+background:#2c3e50;
 color:white;
-padding:15px;
-text-align:center;
+padding:20px;
+margin:0;
+}
+
+.nav{
+margin:20px;
+}
+
+.nav a{
+text-decoration:none;
+margin:10px;
+color:#2c3e50;
+font-weight:bold;
 }
 
 .container{
 display:flex;
-flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:30px;
 }
 
 .book{
 background:white;
-width:200px;
-margin:20px;
+width:220px;
 padding:15px;
-text-align:center;
-box-shadow:0 0 10px #ccc;
+border-radius:8px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.1);
 }
 
 .book img{
-width:150px;
-height:200px;
+width:180px;
+height:120px;
+border-radius:5px;
 }
 
 button{
-background:green;
+background:#27ae60;
 color:white;
 border:none;
-padding:10px;
+padding:8px 15px;
+border-radius:5px;
 cursor:pointer;
+}
+
+button:hover{
+background:#1e8449;
 }
 </style>
 </head>
